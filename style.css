@@ -1,0 +1,44 @@
+body{
+    background-color: brown ;
+}
+
+main{
+    border-radius: 25px;
+    background-color: lavender;
+    width: 75%;
+    margin: auto;
+    padding: 0.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+header{
+    padding-top: 1%;
+}
+
+nav{
+    text-align: center;
+}
+
+.menu{
+    display: inline-block;
+    padding: 14px 16px;
+}
+.menu:hover{
+    background-color: teal;
+}
+
+.Tem{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Podtem{
+    font-size: 30px;
+    font-weight: bold;
+}
