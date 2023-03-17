@@ -1,5 +1,6 @@
 body{
-    background-image: url("background.jpeg");
+    background-image: url("background.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +36,12 @@ nav{
     display: flex;
 }
 
+hr{
+    height:2px;
+    border-width:0;
+    color: forestgreen;
+    background-color: forestgreen;
+}
 .menuspace{
     width: 25%;
 }
@@ -47,7 +54,7 @@ nav{
     border-radius: 5px;
 }
 .menu:hover{
-    background-color: brown;
+    background-color: forestgreen;
 }
 
 .Tem{
@@ -63,4 +70,14 @@ nav{
 
 #tytulowy{
     height: 20%;
+}
+
+li{
+    list-style: none;
+}
+li::before{
+    content: "•";
+    color: forestgreen;
+    width: 1em;
+    margin-left: -1em;
 }
