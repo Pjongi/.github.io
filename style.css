@@ -3,15 +3,22 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 85%;
 }
 
 main{
     border-radius: 25px;
     background-color: lavender;
-    width: 75%;
     margin: auto;
     padding: 0.75%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
+}
+#pc{
+    width: 75%;
+}
+#mobile{
+    width: 90%;
 }
 
 h1{
@@ -37,7 +44,7 @@ nav{
     display: inline-block;
     padding: 14px 16px;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .menu:hover{
     background-color: brown;
@@ -45,12 +52,12 @@ nav{
 
 .Tem{
     text-align: center;
-    font-size: 250%;
+    font-size: 180%;
     font-weight: bold;
 }
 
 .Podtem{
-    font-size: 190%;
+    font-size: 130%;
     font-weight: bold;
 }
 
