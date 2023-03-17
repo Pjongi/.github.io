@@ -50,7 +50,6 @@ hr{
     padding: 1% 1%;
     transition: 0.3s;
     border-radius: 5px;
-    max-width: 10%;
 }
 .menu:hover{
     background-color: forestgreen;
