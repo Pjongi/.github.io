@@ -8,10 +8,10 @@ body{
 }
 
 main{
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: lavender;
     margin: auto;
-    padding: 0.75%;
+    padding: 1.5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
 }
 #pc{
