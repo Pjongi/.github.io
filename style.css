@@ -12,14 +12,9 @@ main{
     border-radius: 15px;
     background-color: lavender;
     margin: auto;
-    padding: 1.5%;
+    padding-top: 1.5%;
+    width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.288), 0 6px 20px 0 rgba(0, 0, 0, 0.247);
-}
-#pc{
-    width: 75%;
-}
-#mobile{
-    width: 95%;
 }
 
 h1{
@@ -44,6 +39,17 @@ hr{
     background-color: forestgreen;
 }
 
+footer{
+    padding: 0.5%;
+    font-size: 80%;
+    color: white;
+    background-color: black;
+    width: auto;
+    text-align: center;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
 .menu{
     flex: 1;
     display: inline-block;
@@ -64,6 +70,12 @@ hr{
 .Podtem{
     font-size: 130%;
     font-weight: bold;
+}
+
+.tresc{
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
 
 #tytulowy{
