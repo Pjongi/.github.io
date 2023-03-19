@@ -4,33 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pjongistan</title>
+    <title>Leśnowanie</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body onload="Mobile_Detection()">
     <main id="main">
         <header>
-            <div id="tytulowy">
-                <h1>Pjongistan</h1>
+            <div id="Nazwa"> <a href="#glowna" id="glowna">Leśnowanie</a>
+                <a href="javascript:void(0);" class="ikona" onclick="Menuscroll()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-            <hr>
-            <nav>
-                <div class="menu">
-                    Kategoria <br>
-                    A
-                </div>
-                <div class="menu">
-                    Kategoria <br>
-                    B
-                </div>
-                <div class="menu">
-                    Kategoria <br>
-                    C
-                </div>
-            </nav>
-            <hr>
+            <!-- Tutaj wypisane są podstrony -->
+            <div id="myLinks">
+              <a href="#kata">Kategoria A</a>
+              <a href="#katb">Kategoria B</a>
+              <a href="#katc">Kategoria C</a>
+            </div>
+            <!-- Tutaj kończą się podstrony -->
         </header>
+        <!-- Tutaj zaczyna się treść -->
         <div class="tresc">
             <p class="Tem">Tu jest tytuł</p>
 
@@ -57,6 +52,7 @@
             <p class="Podtem">Kto robi tą stronę?</p>
             Ja.
         </div>
+        <!-- Tutaj kończy się treść -->
         <footer>
             Stronę opracował: Ja, było napisane wcześniej.
         </footer>
