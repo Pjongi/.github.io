@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leśnowanie</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="Mobile_Detection()">
+    <main id="main">
+        <header>
+            <div id="Nazwa"> <a href="index.html" id="glowna">Leśnowanie</a>
+                <a href="javascript:void(0);" class="ikona" onclick="Menuscroll()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- Tutaj wypisane są podstrony -->
+            <div id="myLinks">
+              <a href="#kata">Survival</a>
+              <a href="pogoda.html" class="podlink">Przewidywanie pogody</a>
+              <a href="#katb">Kategoria B</a>
+              <a href="#katc">Kategoria C</a>
+            </div>
+            <!-- Tutaj kończą się podstrony -->
+        </header>
+        <!-- Tutaj zaczyna się treść -->
+        <div class="tresc">
+            <p class="Tem">Przewidywanie pogody</p>
+            <p>Pogoda jest jednym z kluczowych czynników które trzeba brać podczas szerokopojętego surivalu, 
+            lecz będąc odciętym od internetu oraz innych zródeł informacji ciężko jest ją przewidzieć.</p>
+            <p>Najlepiej jest zakładać że dnia następnego pogoda będzie podobna do obecnej, 
+            ale jednak można ją przewidzieć dokładniej za sprawą dokładnego obserwowania nieba.</p> 
+            <p class="Podtem">Proste sposoby przepowiadania pogody</p>
+            <table>
+                <tr>
+                    <th>Objawy Meteo</th>
+                    <th>Prognoza</th>
+                </tr>
+                <tr>
+                    <th colspan="2">BARWY NIEBA</th>
+                </tr>
+                <tr>
+                    <td>Na wieczornym niebie różowe chmury pierzaste bez innych chmur</td>
+                    <td>Piękna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Niebo poranne szare</td>
+                    <td>Piękna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Piękna, niejaskrawa zorza wieczorna bez ciemnych chmur</td>
+                    <td>Piękna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Zorza poranna w niskich chmurach</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Jaskrawe i kontrastowe barwy na niebie porannym i wieczornym</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>ciemna lub fioletowa czerwień</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Silne różnice w zabarwieniu chmur podczas dnia</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Ciemno niebieskie niebo przy wietrznej pogodzie</td>
+                    <td>Nieustalona pogoda
+                    </td>
+                </tr>
+                <tr>
+                    <td>Szare niebo pokryte licznymi wielkimi chmurami kłębiastymi</td>
+                    <td>Posucha
+                    </td>
+                </tr>
+                <tr>
+                    <td>Szare niebo pokryte chmurami warstwowymi</td>
+                    <td>Deszcz</td>
+                </tr>
+                <tr>
+                    <td>Na wieczornym niebie przeważają barwy brudno-seledynowe i czerwono żółte</td>
+                    <td>Deszcz i wiatr</td>
+                </tr>
+                <tr>
+                    <td>Na wieczornym niebie przeważają barwy jasnożółte</td>
+                    <td>Wietrznie, bezdeszczowo</td>
+                </tr>
+                <tr>
+                    <th colspan="2">MGŁY</th>
+                </tr>
+                <tr>
+                    <td>Opadająca mgła</td>
+                    <td>Cieplej</td>
+                </tr>
+                <tr>
+                    <td>Podnosząca się mgła </td>
+                    <td>Deszcz</td>
+                </tr>
+                <tr>
+                    <td>Gęsta mgła poranna w jesieni</td>
+                    <td>Długotrwała piękna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Mgła poranna w gorące dni</td>
+                    <td>Skłonność do burz</td>
+                </tr>
+                <tr>
+                    <th colspan="2">CHMURY</th>
+                </tr>
+                <tr>
+                    <td>Chmury różnego kształtu i wysokości</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Chmury zbierające się po burzliwej i deszczowej pogodzie</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Na zachodzie lub północnym zachodzie i tworzące kłęby</td>
+                    <td>Przejaśnienia</td>
+                </tr>
+                <tr>
+                    <td>Chmury pierzaste, szybko przeciągające z zachodu lub południowego zachodu</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Powolny przepływ chmur pierzastych ze wschodu</td>
+                    <td>Długotrwała piękna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Zbieranie się licznych chmur pierzastych po długiej ładnej pogodzie</td>
+                    <td>Zbliżająca się depresja, która może przejść bez opadów</td>
+                </tr>
+                <tr>
+                    <td>Zbieranie się wieczorem licznych chmur pierzastych po długiej ładnej pogodzie na zachodniej stronie nieba</td>
+                    <td>Prawdopodobnie niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Chmury pierzaste w warstwach</td>
+                    <td>Deszcz w ciągu 6 godzin</td>
+                </tr>
+                <tr>
+                    <td>Baranki na niebie porannym</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Baranki na niebie wieczornym</td>
+                    <td>Ładna pogoda
+                    </td>
+                </tr>
+                <tr>
+                    <td>Baranki w ciągu dnia i rozprzestrzeniające się chmury kłębiaste wieczorem</td>
+                    <td>W nocy burza</td>
+                </tr>
+                <tr>
+                    <td>Chmury kłębiaste z ostrymi konturami</td>
+                    <td>Ładna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Brzegi chmur zacierają się</td>
+                    <td>Skłonność do deszczu</td>
+                </tr>
+                <tr>
+                    <td>Chmury pęcznieją w górze</td>
+                    <td>Skłonność do burz</td>
+                </tr>
+                <tr>
+                    <td>Chmury kłębiaste o wschodzie słońca</td>
+                    <td>Niepogoda</td>
+                </tr>
+                <tr>
+                    <td>Wiele ciemnych chmur warstwowych</td>
+                    <td>Deszcz</td>
+                </tr>
+                <tr>
+                    <td>Ciemnoszare chmury warstwowe pod jasnoszarym niebem</td>
+                    <td>Długotrwałe deszcze</td>
+                </tr>
+                <tr>
+                    <td>Walcowate lub nawisłe chmury przepływające z jednej strony nieba na drugą</td>
+                    <td>Burza lub wichura</td>
+                </tr>
+                <tr>
+                    <td>Bezchmurne niebo wczesnym rankiem podczas nieustalonej pogody</td>
+                    <td>Deszcz za kilka godzin</td>
+                </tr>
+                <tr>
+                    <th colspan="2">INNE OZNAKI</th>
+                </tr>
+                <tr>
+                    <td>Grzmoty przy zimnej deszczowej pogodzie w lecie</td>
+                    <td>Okres niepogody</td>
+                </tr>
+                <tr>
+                    <td>Gołoledź </td>
+                    <td>Niepogoda trwająca dość długo</td>
+                </tr>
+                <tr>
+                    <td>Dym z kominów ścielący się po ziemi</td>
+                    <td>Niepewnie - deszcz</td>
+                </tr>
+                <tr>
+                    <td>Tęcza rano i przed południem</td>
+                    <td>Deszcz z wichrem </td>
+                </tr>
+                <tr>
+                    <td>Tęcza po południu i wieczorem </td>
+                    <td>Poprawa pogody</td>
+                </tr>
+                <tr>
+                    <td>Szron </td>
+                    <td>Zazwyczaj ładna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Szron po deszczu</td>
+                    <td>Nieustalona pogoda</td>
+                </tr>
+                <tr>
+                    <td>Opady śnieżne nocą w wielkich ilościach, przy silnie opadającym barometrze</td>
+                    <td>Odwilż lub ocieplenie</td>
+                </tr>
+                <tr>
+                    <td>Opady śnieżne przy podnoszącym się barometrze</td>
+                    <td>Krótkotrwała odwilż</td>
+                </tr>
+                <tr>
+                    <td>Po deszczu woda szybko wyparowuje</td>
+                    <td>Powtórny deszcz</td>
+                </tr>
+                <tr>
+                    <td>Halo dookoła słońca</td>
+                    <td>Pogorszenie się pogody w ciągu 24 - 48 godzin</td>
+                </tr>
+                <tr>
+                    <td>Po pięknej pogodzie wyraźne gwiazdy</td>
+                    <td>Możliwe pogorszenie pogody</td>
+                </tr>
+                <tr>
+                    <td>Rosa </td>
+                    <td>Piękna pogoda</td>
+                </tr>
+                <tr>
+                    <td>Druty telefoniczne dźwięczą</td>
+                    <td>Zimno i opady śnieżne</td>
+                </tr>
+            </table>
+            
+        </div>
+        <!-- Tutaj kończy się treść -->
+        <footer>
+            Stronę opracował: Ja, było napisane wcześniej.
+        </footer>
+    </main>
+</body>
+</html>

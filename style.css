@@ -29,6 +29,7 @@ header{
     color: white;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    transition: 0.3s;
 }
 header #glowna{
     color: white;
@@ -37,6 +38,7 @@ header #glowna{
     width: 100%;
     height: 100%;
     display: block;
+    transition: 0.3s;
 }
 header #glowna:hover{
     background-color: forestgreen;
@@ -64,6 +66,18 @@ footer{
     text-align: center;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{ 
+    border: 1px solid black; 
+    padding: 4px;
+}
+th{
+    text-align: center;
+    font-weight: bold;
 }
 
 .icon{
@@ -117,7 +131,6 @@ li::before{
 #myLinks {
     display: none;
     background-color: dimgrey;
-
 }
 #myLinks a{
     color: white;
@@ -127,13 +140,16 @@ li::before{
     width: 100%;
     height: 100%;
     display: block;
+    transition: 0.3s;
+}
+#myLinks a.podlink{
+    padding-left: 3%;
 }
 #myLinks a:hover{
     background-color: forestgreen;
 }
 
 #Nazwa{
-    
     font-size: 180%;
     font-weight: bold;
 }
