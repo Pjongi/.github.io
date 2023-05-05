@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leśnowanie - Żywność</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body onload="Mobile_Detection()">
+    <main id="main">
+        <header>
+            <div id="Nazwa"> <a href="index.html" id="glowna">Leśnowanie</a>
+                <a href="javascript:void(0);" class="ikona" onclick="Menuscroll()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <!-- Tutaj wypisane są podstrony -->
+            <div id="myLinks">
+                <a href="#kata">Survival</a>
+                <a href="pogoda.html" class="podlink">Przewidywanie pogody</a>
+                <a href="ognisko.html" class="podlink">Ognisko</a>
+                <a href="zywnosc.html" class="podlink">Pożywienie</a>
+                <a href="woda.html" class="podlink">Woda</a>
+                <a href="#katb">Głupoty</a>
+                <a href="krotkofalowki.html" class="podlink">Krótkofalówkarstwo</a>
+                <a href="#katc">Kategoria C</a>
+              </div>
+            <!-- Tutaj kończą się podstrony -->
+        </header>
+        <!-- Tutaj zaczyna się treść -->
+        <div class="tresc">
+            <p class="Tem">ŻYWNOŚĆ</p>
+
+            <p class="Podtem">Ogólne zasady żywienia podczas bytowania</p>
+            <p>Stosowanie zasad doboru pożywienia w trudnych warunkach bytowania, o ile
+                w ogóle jest to możliwe, pozwala na utrzymywanie stale wysokiej kondycji
+                psychicznej i fizycznej. Dlatego zawsze, kiedy tylko możemy, powinniśmy
+                odpowiednio dobierać – zarówno pod względem kalorycznym, jak i smakowym – swe
+                pożywienie.</p>
+                <p>Człowiekowi ciężko pracującemu potrzeba dziennie 5000-5500 kalorii, w co
+                wchodzić powinno, między innymi, 150 g białka, 130 g tłuszczów i ok. 850-900 g
+                węglowodanów. Wydatek energii, a więc i zapotrzebowanie na kalorie, są różne
+                przy różnych czynnościach: 
+                <table>
+                    <tr>
+                        <th>Czynność</th>
+                        <th>Kalorie na godzinę</th>
+                    </tr>
+                    <tr>
+                        <td>Sen</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Stanie</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>Pływanie</td>
+                        <td>500</td>
+                    </tr>
+                    <tr>
+                        <td>Marsz</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Bieg</td>
+                        <td>620</td>
+                    </tr>
+                    <tr>
+                        <td>Wspinaczka</td>
+                        <td>720</td>
+                    </tr>
+                    <tr>
+                        <td>Walka wręcz</td>
+                        <td>950</td>
+                    </tr>
+                </table></p>
+                <p>Aby wiadomo było, ile jakich produktów należy konsumować, opisane są przy
+                    poszczególnych produktach ich wartości odżywcze:
+                <table>
+                    <tr>
+                        <th>Produkt</th>
+                        <th>100g Produktu ile kalorii</th>
+                    </tr>
+                    <tr>
+                        <td>oliwa, olej roślinny </td>
+                        <td>930</td>
+                    </tr>
+                    <tr>
+                        <td>tłuszcz zwierzęcy </td>
+                        <td>900-950</td>
+                    </tr>
+                    <tr>
+                        <td>tłuszcz roślinny </td>
+                        <td>750-780</td>
+                    </tr>
+                    <tr>
+                        <td>boczek </td>
+                        <td>650</td>
+                    </tr>
+                    <tr>
+                        <td>orzechy </td>
+                        <td>580</td>
+                    </tr>
+                    <tr>
+                        <td>kiełbasa </td>
+                        <td>540 </td>
+                    </tr>
+                    <tr>
+                        <td>czekolada</td>
+                        <td>450-500 </td>
+                    </tr>
+                    <tr>
+                        <td>ser biały</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>cukier</td>
+                        <td>400 </td>
+                    </tr>
+                    <tr>
+                        <td>mięso z drobiu</td>
+                        <td>300-36</td>
+                    </tr>
+                    <tr>
+                        <td>makaron</td>
+                        <td>335</td>
+                    </tr>
+                    <tr>
+                        <td>mąka</td>
+                        <td>320</td>
+                    </tr>
+                    <tr>
+                        <td>miód</td>
+                        <td>320</td>
+                    </tr>
+                    <tr>
+                        <td>dżem</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <td>mięso ryb</td>
+                        <td>150-250</td>
+                    </tr>
+                    <tr>
+                        <td>jarzyny</td>
+                        <td>100-200</td>
+                    </tr>
+                </table></p>
+                <p>Dodatkową wskazówką do prawidłowego odżywiania się jest norma dzienna
+                    zapotrzebowania na poszczególne produkty: 
+                    <table>
+                        <tr>
+                            <td>mleko i produkty mleczne</td>
+                            <td>0,5-1 l</td>
+                        </tr>
+                        <tr>
+                            <td>zielone jarzyny</td>
+                            <td>200 g</td>
+                        </tr>
+                        <tr>
+                            <td>jarzyny i owoce</td>
+                            <td>300 g</td>
+                        </tr>
+                        <tr>
+                            <td>mięso, ryby</td>
+                            <td>200-300 g</td>
+                        </tr>
+                        <tr>
+                            <td>potrawy mączne</td>
+                            <td>400-500 g</td>
+                        </tr>
+                        <tr>
+                            <td>środki słodzące</td>
+                            <td>100 g</td>
+                        </tr>
+                        <tr>
+                            <td>tłuszcze</td>
+                            <td>50 g</td>
+                        </tr>
+                    </table></p>
+                    <p>Jeżeli w terenie znajduje się samotny człowiek, układanie przez niego
+                        i przestrzeganie odpowiedniego jadłospisu jest niemożliwe. Powinien wówczas
+                        kierować się jedynie podstawowymi, ogólnymi zasadami żywienia: 
+                        <ul class="las">
+                            <li>jeść pokarm możliwie zróżnicowany;</li>
+                            <li>unikać jedzenia zbyt dużej ilości tłuszczu;</li>
+                            <li>nie spożywać żadnych posiłków na godzinę przed i do godziny po dużym
+                                wysiłku fizycznym; </li>
+                            <li>dobrze jest spożywać małe ilości cukrów podczas marszu, gdyż znacznie
+                                oddala to moment zmęczenia organizmu; </li>
+                            <li>w czasie marszu najlepiej pić ciepłe napoje, unikać picia zimnej wody
+                                podczas pracy;</li>
+                            <li>w czasie upałów ograniczać spożywanie produktów tzw. fermentujących:
+                                kapusty, grochu, fasoli, bobu, a także konserw oraz piwa; </li>
+                            <li>przy poruszaniu się w górach spożywać więcej pokarmu oraz pić większe
+                                ilości wody, nawet gdy nie jest się spragnionym (w górach bowiem łatwo
+                                jest odwodnić organizm, czego znakiem będzie pieczenie w nosie oraz
+                                wyschnięte, spękane wargi).</li>
+                        </ul></p>
+
+                        <p class="Podtem">Żywność pochodzenia roślinnego </p>
+                        <p>W naszych warunkach klimatycznych rośliny nadające się do spożycia rosną
+                            dosłownie wszędzie. Przede wszystkim, przez większą część roku, są to wszelkie
+                            rośliny uprawne, które można jeść na surowo, przyrządzić gotując, piekąc lub
+                            smażąc. Z roślin takich również można robić zapasy. Nadają się do tego rośliny
+                            niepsujące się szybko, czyli ziemniaki, kapusta, cebula, marchew, pietruszka, buraki,
+                            pory, selery czy rzepa. Rośliny te należy przechowywać w zagłębieniach,
+                            w miejscach zacienionych. Mogą być przykryte warstwą ziemi, lecz raz na dwa lub
+                            trzy dni należy podlewać je wodą. Owoce można jeść niedojrzałe, ale dopiero po
+                            upieczeniu lub ugotowaniu. </p>
+                        <p>Pamiętać trzeba, że wszelkie zdobywanie roślin uprawnych, lub nawet
+                            zapasów miejscowej ludności, pociąga za sobą ryzyko zdemaskowania grupy.
+                            Dlatego lepiej byłoby korzystać ze źródeł zaopatrzenia, które nie zdradzą obecności
+                            bytujących, a więc głównie z zasobów roślin dzikich. 
+                            </p>
+                        <p>Mimo że zdecydowana większość roślin dziko rosnących jest jadalna, to
+                            jednak bywają wśród nich i trujące, dlatego należy stosować pewne zasady podczas
+                            przyrządzania z nich posiłków: </p>
+                            <ul class="las">
+                                <li>jadalna jest tylko pewna część rośliny;</li>
+                                <li>nie należy spożywać dużej ilości potraw z roślin nieznanych;</li>
+                                 <li>rośliny, którymi żywią się gryzonie, są jadalne;</li>
+                                 <li>każdą nieznaną roślinę należy długo gotować;</li>
+                                 <li>grzyby wolno zbierać jedynie znane;</li>
+                                 <li>rośliny mające mleczko (oprócz mlecza) są trujące. </li>
+                            </ul>
+                        <p>Przyrządzenie do spożycia roślin dziko rosnących zależy od rodzaju rośliny
+                            oraz możliwości i umiejętności kucharza. Znając pewne właściwości niektórych
+                            roślin, można przyrządzić smaczne potrawy. </p>
+                        <p>W wypadku braku cukru można sporządzić bardzo słodki syrop ze
+                            wspomnianego wcześniej napoju z brzozy czy klonu. Zebrany napój gotuje się, aż
+                            powstanie lepki, gęsty, żółtobrązowy płyn. </p>
+                        <p>Z brzozy również można uzyskać makaron. W tym celu należy wewnętrzną
+                            warstwę kory pociąć jak makaron i zagotować. Danie to ma dość dużą wartość 
+                            odżywczą oraz zawiera witaminę C. Można dodawać je do innych dań, jeść jako
+                            makaron w zupie, a nawet na surowo. </p>
+                        <p>Podobnie można postępować z wewnętrzną korą świerków, jodeł, wierzb
+                            i osik. Na wypadek potrzeby zdobycia mąki kora ta, odpowiednio utarta, może
+                            zastąpić w części mąkę pszenną lub żytnią, jednakże nie może być jej więcej jak
+                            1/3 całości mąki. </p>
+                        <p>Jadalna jest większość skalnych porostów. Smakują całkiem dobrze i mają
+                            dużo witamin. </p>
+                        <p>Jadalne są również wszystkie gatunki traw morskich. Można jeść je na
+                            surowo, ugotować z nich zupę, udusić z mięsem. Trawa morska jest bardzo zdrowa,
+                            gdyż zawiera jod, składniki mineralne oraz dużą ilość witamin. </p>
+                        <p>Najlepszą i najbardziej lekkostrawną rośliną jest pokrzywa. Wystarczy ją
+                            sparzyć wrzątkiem, aby przestała parzyć. Z jej liści można zrobić sałatkę o smaku
+                            podobnym do szpinaku. Bardzo smaczna i zdrowa jest także herbata z wysuszonych
+                            liści pokrzywy. </p>
+                        <p>Napój w rodzaju kawy można przyrządzić z korzeni popularnego mlecza.
+                            Należy je wysuszyć, uprażyć na patelni, zemleć i następnie zaparzyć napój. </p>
+                        <p>Owoce dzikiej róży dojrzewają na jesień i można je znaleźć na krzewach
+                            nawet zimą. Z dojrzałych owoców zdejmuje się łupiny, zaś z miąższu można
+                            zaparzyć herbatę zawierającą dużo witaminy A. </p>
+                        <p>Bardzo smaczne są grzyby, jednakże nie można sobie pozwolić na
+                            konsumpcję potraw z grzybów nieznanych. Nawet małe ilości takiej potrawy
+                            w niektórych przypadkach mogą być śmiertelne. </p>
+                        <p>Jadalne są wszelkie orzechy, od małych jodłowych czy świerkowych, przez
+                            bukowe i laskowe do włoskich. Dodatkowo są one wysokokaloryczne. śołędzie
+                            natomiast nadają się najlepiej do wyrobu mąki, po wysuszeniu i następnie zmieleniu. 
+                            </p>
+                        <p>Jadalne są także bulwy lilii wodnych, zarówno na surowo, jaki i gotowane.
+                            Można także jeść młode, uprażone pędy paproci</p>
+                        <p>Bardzo popularny jest szczaw, z którego można przyrządzić zupę. Dodatkowo
+                            jadalne sałatki, sosy i zupy przyrządza się z rdestu, rzodkwi, barszczu zwyczajnego,
+                            rzeżuchy łąkowej, koniczyny, pałki wodnej, tataraku, trzciny, strzałki wodnej, owoców
+                            tarniny, głogu, jarzębiny, kaliny, czeremchy. Nie wolno także zapominać o malinach,
+                            poziomkach, jeżynach, jagodach, borówkach, porzeczkach, brusznicy czy dziko
+                            rosnących gruszach i jabłoniach. </p>
+                        <p class="Podtem">śywność pochodzenia zwierzęcego </p>
+                        <p>Ze wszystkich zwierząt występujących w naszej strefie klimatycznej prawie
+                            wszystkie są jadalne. Niejadalny jest jedynie kret i ogon szczura.
+                            Najlepiej oczywiście wykorzystywać zwierzęta hodowlane: drób, kozy, owce, krowy,
+                            konie, świnie, nawet psy i koty. Zdobywać je można przez uprowadzanie z pastwisk
+                            czy zagród. Ważne jest, aby zrobić to niezauważalnie. Wszelki drób najlepiej jest
+                            zwabić, np. okruchami chleba, w miejsce swego ukrycia i tam, gdy będą w zasięgu
+                            ręki - zadusić. Świnie można uprowadzić przy pomocy żyłki, haczyka i przynęty.
+                            Dozwolone są ogólnie wszystkie fortele w celu cichego pochwycenia zwierząt
+                            hodowlanych. Możliwości zależą od pomysłowości i wyposażenia myśliwego.
+                            Ze względu na wydawane odgłosy zwierzęta hodowlane najlepiej jest uprowadzać za
+                            dnia, a wszelkie pozostawione ślady należy maskować</p>
+                        <p>Oprócz zwierząt hodowlanych jest wiele zwierząt jadalnych żyjących dziko.
+                            Polowanie na nie zajmuje jednak więcej czasu i wymaga pewnych umiejętności
+                            z dziedziny myślistwa. 
+                            </p>
+                        <p>Można polować dwoma sposobami: przez odstrzał oraz za pomocą wnyków
+                            i pułapek. Najlepiej jest stosować oba sposoby równolegle. </p>
+                        <p>Polowanie przez odstrzał zwierzyny wymaga bezpośredniego zaangażowania
+                            myśliwego i polega na ustrzeleniu zwierzęcia przy pomocy posiadanej broni z tzw.
+                            podchodu lub zasadzki. Podchodzenie jest głównym problemem przy tego typu
+                            polowaniu. Należy robić to, w miarę możliwości, od strony zawietrznej (aby wiatr wiał
+                            od zwierzęcia do ciebie), unikając gwałtownych ruchów czy jakiegokolwiek głośnego
+                            zachowania się. Przy każdym podniesieniu łba przez zwierzę myśliwy musi
+                            zastygnąć w bezruchu. W przeciwnym razie zostanie wykryty. Trzeba liczyć się
+                            z tym, że podchodzenie takie może trwać nawet kilka godzin. </p>
+                        <p>Polowanie z zasadzki polega na zasadzeniu się na zwierzę w ukryciu
+                            w pobliżu wodopoju czy ścieżki zwierząt i wyczekaniu na nadejście zwierzęcia.
+                            Najlepiej zasadzać się przed świtem, bowiem największy ruch u zwierząt występuje
+                            właśnie o świcie.</p>
+                        <p>Przy polowaniu na zwierzę mięso- lub padlinożerne można posłużyć się przynętą
+                            w postaci sztuki mięsa. </p>
+                        <p>Oczywistą rzeczą w obu przypadkach jest perfekcyjne zamaskowanie się, przy
+                            czym trzeba również uwzględnić maskowanie swego zapachu poprzez
+                            nasmarowanie się np. wywarem z silnie pachnących roślin</p>
+                        <p>Dodatkowo dobrze byłoby używać do polowania tłumika przy broni oraz
+                            należałoby spiłować ostrołuk pocisku dla zwiększenia jego mocy obalającej. W
+                            przeciwnym razie trafione zwierzę może jeszcze spory kawałek uciec. Celować
+                            należy za przednią łopatkę (za przednią nogę) lub w głowę. </p>
+                        <p>Nie zawsze jednak będzie można polować przy użyciu broni palnej. Dlatego
+                            posiąść trzeba umiejętność zakładania wnyków i pułapek. Polowanie w ten sposób
+                            polega na ustawianiu w odpowiednim miejscu takich właśnie urządzeń i częstym ich
+                            sprawdzaniu. Pułapki przede wszystkim należy ustawiać na zwierzęcych ścieżkach.
+                            Ścieżki te można rozpoznać po tropach. Należy przy tym wiedzieć, jakie ślady
+                            pozostawiają różne zwierzęta.</p>
+                        <img src="polapki.png">
+                        <p>W zależności od gatunku zwierzyny buduje się różne pułapki. Do polowań na
+                            duże zwierzęta najlepiej nadaje się dół z wbitymi w dno palami (punji). Dół należy
+                            przykryć rusztowaniem z żerdzi i dokładnie zamaskować. Rusztowanie musi być na
+                            tyle słabe, aby pod ciężarem zwierzęcia załamało się. Zwierzę, które wpadnie do
+                            dołu, po wykryciu przez myśliwego należy dobić.</p>
+                        <p>Nieco mniej pracochłonna jest pułapka z wykorzystaniem wnyka z mocnej
+                            linki. Na lince tej, przerzuconej przez konar, należy umocować uniesiony koniec
+                            ciężkiej kłody. U dołu zaś, z drugiej strony, sporządzić mocowanie z dwóch mocnych
+                            kołków . Następnie na wysokości głowy zwierzęcia należy z reszty tej
+                            linki, zawiązanej w pętlę, rozwiesić wnyk. Zwierzę po włożeniu głowy we wnyk
+                            i pociągnięciu go odblokuje kłodę, co spowoduje jej opadnięcie. Pułapka zadziała
+                            skutecznie, jeżeli odpowiednio blisko wylotu ustawi się kołek z linką na mocowaniu,
+                            aby stosunkowo niewielka siła mogła go wyrwać. </p>
+                        <img src="polapki_M.png">
+                        <p>Przy polowaniu na zwierzęta mięsożerne można ustawić pułapkę z głazu
+                            i kołka. W tym celu nad lekkim zagłębieniem należy, na odpowiednio mocnym kołku,
+                            oprzeć ciężki blok skalny – w ten sposób, aby nawet mały ruch kołka spowodował
+                            osunięcie się głazu. Dla uniknięcia wbicia się kołka w ziemię pod ciężarem głazu
+                            należy oprzeć go od spodu na kamieniu. Przynęta przywiązana linką do dolnej części
+                            kołka da pewność, że zostanie on we właściwym momencie
+                            poruszony. Całość powinna być jak najmniej stabilna. </p>
+                        <p>Do upolowania zwierzyny małej nie są potrzebne aż tak wymyślne pułapki.
+                            Wystarczą proste wnyki rozpostarte pomiędzy krzewami czy też odpowiednio wbitymi
+                            żerdziami na ścieżkach zwierząt. W celu zwiększenia prawdopodobieństwa tego, że
+                            zwierzę nie wydostanie się z pułapki można zastosować proste urządzenie sporządzone z kawałka sznurka i kija. Odpowiednie mocowanie spowoduje
+                            podniesienie w górę całego urządzenia, wraz z upolowanym zwierzęciem
+                            w momencie jego złapania. Na ścieżkach należy założyć możliwie jak najwięcej
+                            pułapek, gdyż zwiększa to prawdopodobieństwo upolowania zwierzęcia. Dość dużym
+                            problemem jest materiał na wnyki. W celu skanalizowania ruchu zwierząt przy
+                            zastawionej pułapce można stawiać różne zapory – w ten sposób, aby jedyne
+                            przejście było w rejonie pułapki. </p>
+                        <p>Przy polowaniu na ptaki wodne można łapać je bezpośrednio z wody, budując
+                            sobie na wystającej z wody głowie odpowiednie maskowanie z trzcin i traw. Ptaki
+                            można wtedy chwytać, wciągając je rękami za nogi pod wodę i przytrzymać tak
+                            długo, aż się utopią lub skręcić im kark. 
+                            </p>
+                        <p>Przy podchodzeniu do zwierząt trzeba zwrócić uwagę, aby nie podchodzić po
+                            linii prostej, ponieważ zwiększa to ich czujność i podejrzliwość. Dodatkowo należy
+                            pozyskiwać ptasie jaja z dziupli i gniazd. </p>
+                        <p>Oprócz zwierząt leśnych i ptaków ważnym składnikiem pożywienia podczas
+                            działań na zapleczu przeciwnika mogą być ryby, których mięso, choć jest mało
+                            kaloryczne, posiada dużą ilość białka. Należy łowić je przy pomocy wędki lub ościeni.
+                            Najwięcej ryb jest w zarośniętych jeziorach o gęsto porośniętym dnie. Lubią
+                            przebywać w pobliżu korzeni drzew porastających brzegi i w zagłębieniach przy
+                            stromych brzegach oraz na końcach katarakt i wodospadów. Można je spotkać
+                            również za małymi wysepkami, dużymi kamieniami i zanurzonymi w wodzie pniami
+                            drzew. 
+                            </p>
+                        <p>Wędzisko zastąpić może gałąź jałowca lub leszczyny, ale najczęściej nie jest
+                            ono w ogóle potrzebne. Spławik najlepiej wykonać z pióra wodnego ptaka lub
+                            z gałązki iglastego drzewa. W przypadku gdy nie posiada się żadnych środków do
+                            połowu ryb, można zrobić pułapkę z witek wiklinowych, zaplecionych na kształt kosza
+                            z lejkowatym otworem. Wewnątrz takiego urządzenia, zwanego więcierzem,
+                            umieszcza się przynętę - kawałek mięsa lub chleba. Więcierz należy sprawdzać dwa
+                            razy dziennie. Trzeba pamiętać, aby dobrze umocować go ze względu na możliwość
+                            porwania przez nurt. W górskich potokach można zrobić pułapkę z kamieni
+                            i gałęzi. Należy zbudować z kamieni zatokę z przerwą (wejściem) w jednym miejscu,
+                            aby mogła z niej swobodnie uchodzić woda. W przerwie tej trzeba zbudować silną
+                            kratownicę z gałęzi, która nie pozwoli przepłynąć tamtędy rybom. Podobną
+                            kratownicę w kształcie litery V z otworem na wierzchołku ustawia się z drugiej strony kamiennej pułapki. Ważne jest, aby murek z kamieni był dość wysoki i uniemożliwiał
+                            rybom przeskoczenie nad nim. </p>
+                        <p>W przypadku gdy dysponujesz liśćmi orzecha włoskiego, możesz przy ich
+                            pomocy zatruć ryby w strumieniu. W tym celu w dole strumienia zbuduj zastawę
+                            z żerdzi tak, aby przepuszczała swobodnie wodę, lecz zatrzymała ryby. Natomiast
+                            300-400 m w górę rzeki wsyp do wody zmielone liście orzecha włoskiego. </p>
+                        <p>W czystych wodach można łowić ryby przy pomocy ościenia. Oścień można
+                            wykonać w prosty sposób z rozwidlonej gałęzi o długości ok. 2 m. Końce trójzębu
+                            trzeba zaostrzyć nożem i opalić. Przy polowaniu ościeniem należy pamiętać, aby
+                            przy celowaniu trzymać go lekko poniżej zdobyczy, ze względu na załamanie światła
+                            w wodzie. </p>
+                        <p>W zimie, w celu wykonania przerębli, należy rozpalić ognisko na małej
+                            tratewce ustawionej na lodzie. Spowoduje to szybkie roztopienie się lodu
+                            i dodatkowo światło zwabi ryby w rejon przerębli. </p>
+                        <p>Przed spożyciem mięsa zwierząt należy
+                            upewnić się, czy były zdrowe. Nie wolno jeść mięsa
+                            zwierząt, których oczy są zmatowiałe, zaszły mgłą
+                            (zwłaszcza ryby) lub które miały nienaturalnie
+                            miękki brzuch. U zwierząt leśnych zdrowe osobniki
+                            mają lśniące futro – bez ubytków – i czyste uszy.
+                            Oczywiście, chorobę wskazuje piana w pysku. </p>
+                        <p>Podobnie ptaki – powinny mieć pełne
+                            upierzenie. </p>
+                        <p class="Podtem">Przyrządzanie mięsa </p>
+                        <p>Przygotowanie ryb do spożycia polega na
+                            odcięciu głowy ze skrzelami, rozcięciu brzucha
+                            i wypatroszeniu oraz zeskrobaniu łusek. Łuski
+                            skrobie się od ogona do głowy. W przypadku
+                            trudności w ich schodzeniu, podobnie jak
+                            z upierzeniem ptaków, należy sparzyć je
+                            w gorącej wodzie. Mięso ryb można jeść na surowo. </p>
+                        <p>Przygotowanie ptaków do spożycia polega na odcięciu głowy i nóg, wyrwaniu
+                            pierza (po uprzednim sparzeniu wrzątkiem) i opaleniu nad ogniem oraz
+                            wypatroszeniu przez rozcięcie brzucha od kupra do przepony i wyrwaniu
+                            wnętrzności. Z wnętrzności jadalne są serce i wątroba, które można spożyć na
+                            surowo.</p>
+                        <p>Przy drobnej zwierzynie płowej – w celu przygotowania jej do spożycia –
+                            należy: </p>
+                            <ul class="las">
+                                <li>jeżeli jest to samiec – wytrzebić go (odciąć narządy rozrodcze); </li>
+                                <li>obielić (zdjąć skórę): odciąć przednie łapy i głowę, naciąć skórę od łap
+                                    przez szyję, zedrzeć skórę w dół systemem workowym, odciąć kitę i tylne
+                                    łapy ze skórą; </li>
+                                <li>wypatroszyć: rozciąć brzuch od odbytu do przepony, wyrwać wnętrzności,
+                                    powiesić tuszkę, aby ociekła krew (należy ją pozostawić na jeden lub dwa
+                                    dni, aby mięso skruszało). 
+                                    </li>
+                            </ul>
+                        <p>Mięso przyrządzone od razu po wypatroszeniu jest mniej smaczne.
+                            Przygotowanie dużej zwierzyny płowej polega na: </p>
+                            <ul class="las">
+                                <li>Jeżeli jest to samiec – wytrzebieniu go i wyciśnięciu moczu z pęcherza
+                                    moczowego.</li>
+                                    <li>Wypatroszeniu: 
+                                        <ul class="las">
+                                            <li>rozcięciu skóry na podgardlu, przecięcie tchawicy i przełyku; </li>
+                                            <li>rozcięciu brzucha od odbytu do przepony, przecięcie błony
+                                                brzusznej, bez naruszenia jelit; </li>
+                                            <li>przecięciu przepony wzdłuż żeber; </li>
+                                            <li>wyszarpnięciu tchawicy do jamy brzusznej i następnie całych
+                                                wnętrzności na zewnątrz; </li>
+                                            <li>ustawieniu tuszki pionowo, aby ściekła krew. </li>
+                                        </ul>
+                                    </li>
+                                <li>Obieleniu przez podcięcie skóry od brzucha i wzdłuż nóg do grzbietu;
+                                    końce nóg oraz łeb należy odciąć. </li>
+                                <li> Ostudzeniu tuszki (pozostawieniu do skruszenia).</li>
+                            </ul>
+                        <p>Serce i wątrobę można jeść na surowo.
+                            Poza tym bardzo zdrowa jest świeża
+                            krew zwierząt. Wnętrzności należy
+                            zakopać, tuszkę po wycieknięciu krwi
+                            dokładnie umyć wodą, następnie – jeśli
+                            nie będzie studzona – poporcjować na
+                            odpowiednie kawałki, dobre do
+                            pieczenia, smażenia czy gotowania.
+                            Do przyrządzania posiłku nad ogniem
+                            najlepiej używać drewna z wierzby,
+                            jałowca lub zdziczałych drzew
+                            owocowych. </p>
+                        <img src="patroszenie.png">
+        </div>
+        <!-- Tutaj kończy się treść -->
+        <footer>
+            Stronę opracował: Ja, było napisane wcześniej.
+        </footer>
+    </main>
+</body>
+</html>

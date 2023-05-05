@@ -6,6 +6,7 @@ console.log("1");
 ) {
   var main = document.getElementById("main");
   document.getElementById("main").style.fontSize = "80%";
+  document.getElementById("main").style.width = "100%";
 }
 }
 
